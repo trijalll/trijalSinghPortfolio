@@ -1,0 +1,318 @@
+/* -------part1 responsive------ */
+@media (max-width: 450px) {
+    .main {
+      overflow: hidden;
+    }
+    .navbar__menu__responsive{
+        display: initial;
+        position: absolute;
+        top: -50%;
+        height: 50vh;
+        width: 100%;
+        z-index: 10;
+        background-color: var(--text-color);
+        transition: ease-in-out 0.5s;
+    }
+    .nav__respons__menu{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2vw;
+    }
+    .navbar__menu__responsive a{
+        text-decoration: none;
+        color: black;
+        font-size: 4vw;
+    }
+    .nav__respons__close__icon{
+        height: 20%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 6vw;
+    }
+    .nav__container {
+      display: flex;
+      /* align-items: center; */
+      justify-content: center;
+    }
+    .nav {
+      z-index: 1;
+      height: 7vh;
+      margin: 3vw 0vw;
+      border-radius: 10vw;
+      display: initial;
+      display: flex;
+    }
+    .nav__menu{
+      display: none;
+  }
+  .nav__logo img{
+      width: 20vh;
+  }
+  .nav__menu__icon{
+      display: initial;
+      width: 70%;
+      display: flex;
+      justify-content: right;
+      padding-right: 2vw;
+  }
+  .nav__menu__icon i{
+      font-size: 4vw;
+  }
+    .part1__img {
+      display: none;
+    }
+    .part1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .part1__respons__circle {
+      display: initial;
+    }
+    .part1__respons__circle img {
+      position: absolute;
+      width: 80vh;
+      left: -35vw;
+      top: -100vw;
+      z-index: 0;
+    }
+    .part1__cont {
+      margin-top: 50vw;
+    }
+    .part1__respons__img {
+      display: initial;
+      position: absolute;
+      top: 15vh;
+      z-index: 9;
+      left: 18vw;
+      width: 50%;
+      /* overflow: hidden; */
+    }
+    .part1__respons__img img {
+      width: 30vh;
+    }
+    .part1__cont {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .part1__cont__head {
+      text-align: center;
+      margin-top: 3vw;
+    }
+    .part1__h11 {
+      font-size: 4vw;
+      margin-top: 5vh;
+    }
+    .part1__h12 {
+      font-size: 5vw;
+    }
+    .part1__cont__cont p {
+      text-align: center;
+    }
+    .part1__icon a {
+      font-size: 3.5vw;
+      border-radius: 5vw;
+      padding: 1vw 3vw;
+      text-align: center;
+    }
+    .part1__icon {
+      align-items: center;
+      margin-top: 2vw;
+    }
+    .part1__icon i {
+      font-size: 4vw;
+    }
+    .part2{
+      display: none;
+    }
+    .part2__respons{
+        display: block;
+        height: 80vh;
+        width: 100%;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        gap: 10vw;
+    }
+    .part3__head__left{
+        height: 30%;
+        width: 30%;
+    }
+    .part3__head__center{
+        width: 40%;
+        height: 30%;
+    }
+    .part3__head__right{
+        width: 30%;
+        height: 30%;
+    }
+    .part2__respons__bottom{
+        height: 80%;
+        width: 100%;
+        background-color: var(--text-color-new);
+        padding: 0vh 2vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3svw;
+    }
+    #part2__span{
+        font-size: 3vw;
+    }
+    .part3{
+        height: 80vh;
+    }
+    .part3__cont p{
+        font-size: 3vw;
+    }
+    .part3__cont{
+        margin-top: 8vw;
+    }
+    .part4__container{
+        padding: 0vh 2vh;
+    }
+    .part4 h1{
+        font-size: 6vw;
+    }
+    .part4 p{
+        font-size: 3vw;
+    }
+    .part4__top__left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .part4__respons__hidden{
+        display: none;
+    }
+    .part4__respons__cont{
+        display: initial;
+    }
+    .part6{
+        height: 200vh;
+    }
+    .part6__card__top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .part6__card__bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .part6__card__top a{
+        width: 100%;
+    }
+    .part6__card__bottom a{
+        width: 100%;
+    }
+    .part7{
+        height: 100vh;
+    }
+    .part7__head__left{
+        height: 2.5vh;
+        width: 30%;
+    }
+    .part7__head__center{
+        width: 40%;
+        height: 30%;
+    }
+    .part7__head__right{
+        width: 30%;
+        height: 2.5vh;
+    }
+    .part7__cont{
+        gap: 10vw;
+    }
+    .part7__bvcoe img{
+        width: 30vw;
+    }
+    .part7__ait img{
+        width: 20vw;
+    }
+    .part7__cont h1{
+        font-size: 3.5vw;
+    }
+    .part8{
+        height: 240vh;
+    }
+    .part8__head__left{
+        height: 2.5vh;
+        width: 25%;
+    }
+    .part8__head__center{
+        width: 50%;
+        height: 30%;
+    }
+    .part8__head__right{
+        width: 25%;
+        height: 2.5vh;
+    }
+    .part8__cont__top{
+        display: flex;
+        flex-direction: column;
+    }
+    .part8__cont__bottom{
+        display: flex;
+        flex-direction: column;
+    }
+    .part8__cont__left{
+        width: 100%;
+    }
+    .part8__cont__right{
+        width: 100%;
+    }
+    .part8__content h1{
+        font-size: 4vw;
+    }
+    .part8__content p{
+        font-size: 2.5vw;
+    }
+    .part9{
+        height: 160vh;
+        margin-top: 170%;
+    }
+    .part9__cont__top{
+        flex-direction: column;
+        display: flex;
+    }
+    .part9__cont__left{
+        width: 100%;
+    }
+    .part9__cont__right{
+        width: 100%;
+    }
+    .part9__content h1{
+        font-size: 4vw;
+    }
+    .part9__content p{
+        font-size: 2.5vw;
+    }
+    .part10{
+        height: 70vh;
+    }
+    .part10 h1{
+        font-size: 12vw;
+    }
+    .part10__text1{
+        font-size: 3vw;
+    }
+    .footer__link a{
+        font-size: 6vw;
+    }
+    .footer__logo img{
+        width: 40vw;
+    }
+  }
+  
